@@ -30,7 +30,7 @@ module MetaCodable
         package.author.name => package.author.email
       }
 
-      self.swift_version             = '5.9'
+      self.swift_version             = '6.0'
       self.ios.deployment_target     = '13.0'
       self.macos.deployment_target   = '10.15'
       self.tvos.deployment_target    = '13.0'
