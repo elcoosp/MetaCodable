@@ -163,7 +163,7 @@ extension PropertyVariable {
             type.name.text == "Optional",
             let gArgs = type.genericArgumentClause?.arguments,
             gArgs.count == 1,
-            let type = gArgs.first?.argument
+            let type = gArgs.first?.argument as? TypeSyntax
         {
             dType = type
             dMethod = "\(method)IfPresent"
