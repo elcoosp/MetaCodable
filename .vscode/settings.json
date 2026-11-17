@@ -15,4 +15,6 @@
     "METACODABLE_CI": "true",
     "SPI_GENERATE_DOCS": "true"
   },
+  "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
+  "lldb.launch.expressions": "native",
 }
